@@ -6,7 +6,7 @@ import time
 numofpolls = 20
 
 c = ModbusClient(
-        host="172.28.2.21",
+        host="0.0.0.0",
         port=502,
         debug=False,
         unit_id=10,

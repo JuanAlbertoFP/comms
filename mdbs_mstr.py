@@ -20,7 +20,7 @@ file1.write(s)
 file1.close()
 
 c = ModbusClient(
-        host="172.29.117.1",
+        host="0.0.0.0",
         port=502,
         debug=False,
         unit_id=1,
